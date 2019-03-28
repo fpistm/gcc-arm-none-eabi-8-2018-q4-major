@@ -298,10 +298,11 @@ PYTHON_WIN_PACK=$PYTHON_WIN.msi
 
 GMP_URL=https://gmplib.org/download/gmp/$GMP_PACK
 MPFR_URL=http://www.mpfr.org/$MPFR/$MPFR_PACK
-MPC_URL=ftp://ftp.gnu.org/gnu/mpc/$MPC_PACK
+MPC_URL=https://ftp.gnu.org/gnu/mpc/$MPC_PACK
 ISL_URL=http://isl.gforge.inria.fr/$ISL_PACK
 EXPAT_URL=https://downloads.sourceforge.net/project/expat/expat/$EXPAT_VER/$EXPAT_PACK
-LIBELF_URL=http://www.mr511.de/software/$LIBELF_PACK
+#LIBELF_URL=http://www.mr511.de/software/$LIBELF_PACK
+LIBELF_URL=https://fossies.org/linux/misc/old/$LIBELF_PACK
 LIBICONV_URL=https://ftp.gnu.org/pub/gnu/libiconv/$LIBICONV_PACK
 ZLIB_URL=http://www.zlib.net/fossils/$ZLIB_PACK
 ENV_VAR_UPDATE_URL=http://nsis.sourceforge.net/mediawiki/images/a/ad/$ENV_VAR_UPDATE_PACK
