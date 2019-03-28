@@ -96,7 +96,9 @@ clean_env () {
             USER|\
             USERNAME|\
             com.apple.*|\
-            XAUTHORITY)
+            XAUTHORITY|\
+            http_proxy|\
+            https_proxy)
             ;;
         *)
             unset $var
