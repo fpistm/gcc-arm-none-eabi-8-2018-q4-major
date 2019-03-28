@@ -348,7 +348,8 @@ if [ "${SCRIPT%%-*}" = "build" ]; then
 
     stack_level=0
 
-    RELEASEDATE=`date +%Y%m%d`
+    # RELEASEDATE=`date +%Y%m%d`
+    RELEASEDATE=20181220
     release_year=${RELEASEDATE:0:4}
     release_month=${RELEASEDATE:4:2}
     case $release_month in
